@@ -22,6 +22,7 @@ const Work = () => {
                         <div>
                             <h2 className='font-semibold'>{project.title}</h2>
                             <p className = 'text-sm text-gray-700'>{project.description}</p>
+                            {/* <p className = 'text-sm text-gray-700'>{`url(${project.bgImage})`}</p> */}
                         </div> 
                         <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
                             <Image src={assets.send_icon} alt = "send icon" className = 'w-5'/>

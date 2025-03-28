@@ -32,7 +32,7 @@ const Contact = () => {
 
 
   return (
-    <div id ='contact' className = 'w-full px-[12%] py-10 scroll-mt-20 bg-[url("/assets/footer-bg-color.png")] bg-no-repeat bg-center'>
+    <div id ='contact' className = 'w-full px-[12%] py-10 scroll-mt-20 bg-[url("/footer-bg-color.png")] bg-no-repeat bg-center'>
 
        <h4 className = "text-center mb-2 text-lg font-Ovo">
             Connect with me

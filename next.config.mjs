@@ -3,11 +3,12 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-    basePath: isProd ? '/katarzynasornat-portfolio' :"",
+    basePath: isProd ? '/katarzynasornat-portfolio' : '',
     output: 'export',
     distDir: 'dist',
     images:{
-        unoptimized: true
+        unoptimized: true,
+        domains: ['localhost','https://katarzynasornat.github.io/katarzynasornat-portfolio'],
     }
 };
 
