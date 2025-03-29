@@ -186,22 +186,22 @@ export const projects = [
         </>
       ),
     },
-    {
-      name: 'Sketch to 3D',
-      title: 'Sketch to 3D',
-      description: 'DiT + ControlNet for 3D rendering',
-      description_long: " dkdkdkd" ,
-      image: 'work-2.png',
-      bgImage: 'work-2.png',
-      content: (
-        <>
-          <h3 className="text-xl font-semibold">About This Project</h3>
-          <p>This project is a responsive website built with Next.js and Tailwind CSS, featuring a creative design.</p>
-          <img src="work-2.png" alt="Project B" className="mt-4 w-full rounded-lg" />
-          <img src="work-2.png" alt="Project B" className="mt-4 w-full rounded-lg" />
-        </>
-      ),
-    },
+    // {
+    //   name: 'Sketch to 3D',
+    //   title: 'Sketch to 3D',
+    //   description: 'DiT + ControlNet for 3D rendering',
+    //   description_long: " dkdkdkd" ,
+    //   image: 'work-2.png',
+    //   bgImage: 'work-2.png',
+    //   content: (
+    //     <>
+    //       <h3 className="text-xl font-semibold">About This Project</h3>
+    //       <p>This project is a responsive website built with Next.js and Tailwind CSS, featuring a creative design.</p>
+    //       <img src="work-2.png" alt="Project B" className="mt-4 w-full rounded-lg" />
+    //       <img src="work-2.png" alt="Project B" className="mt-4 w-full rounded-lg" />
+    //     </>
+    //   ),
+    // },
     {
       name: 'E-comm photography',
       title: 'E-comm photography',
@@ -270,7 +270,7 @@ export const projects = [
             <h3 className="text-xl font-semibold mt-6">About This Project</h3>
           <p className = "mt-6">This project uses OminiControl/In-Context-Lora/OmniGen model with the Diffusion Transformers models to provide subject-driven generation which could be used for e-commerce actions like Virtual Try-On, Visual Identity Transfer, Product Design and more. Below my examples presented (on the left reference image, on the right - AI generated) </p>
 
-          <div className="flex flex-col items-center p-4">
+          <div className="grid grid-cols-2 gap-6 items-center p-4">
       <div className="mb-6">
         <img
           className="w-full max-w-lg rounded-lg shadow-lg"
@@ -296,6 +296,20 @@ export const projects = [
         <img
           className="w-full max-w-lg rounded-lg shadow-lg"
           src="logo1_.png"
+          alt="Image 4"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="kiciakocia.png"
+          alt="Image 4"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="flowers.png"
           alt="Image 4"
         />
       </div>

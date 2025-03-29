@@ -49,7 +49,7 @@ const Services = () => {
         </div>
         <div className="text-center w-1/3">
           <h2 className="text-3xl font-bold mb-4">Chocolate box design for Śliwka Nałęczowska</h2>
-          <p className="text-lg mb-4">In 2025 I took part in a competition organized by Śliwka Nałęczowska to design a limited edition Christmas chocolate box. Winners will be announced in April 2025.</p>
+          <p className="text-lg mb-4">In 2025 I took part in a competition organized by Śliwka Nałęczowska to design a limited edition Christmas chocolate box. Winners will be announced in April 2025. I have used Procreate for the design.</p>
         </div>
       </div>
 
