@@ -17,11 +17,9 @@ export default function Home() {
     <Header/>
     <About/>
     <Services/>
-    <Work/>
+    {/* <Work/> */}
+    <ProjectIcons />
     <Contact/>
-    <div className="min-h-screen flex justify-center items-center p-6 bg-gray-100">
-      <ProjectIcons />
-    </div>
     <Footer/>
     </>
   );
