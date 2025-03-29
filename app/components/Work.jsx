@@ -1,6 +1,7 @@
 import { workData, assets } from '@/assets/assets'
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 
 const Work = () => {
@@ -34,10 +35,13 @@ const Work = () => {
             ))}
         </div>
 
+        {/* <Link href = "/aibook" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
+            Show more <Image src={assets.right_arrow_bold} alt = 'Right arrow' className='w-4'/>
+        </Link> */}
+
         <a href = "" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500'>
             Show more <Image src={assets.right_arrow_bold} alt = 'Right arrow' className='w-4'/>
         </a>
-      
     </div>
   ) 
 }
