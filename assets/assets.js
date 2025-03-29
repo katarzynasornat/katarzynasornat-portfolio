@@ -234,14 +234,14 @@ export const projects = [
                 <video
                 className="w-full h-auto rounded-lg shadow-lg"
                 controls
-                src="/musk.mp4"
+                src="musk.mp4"
                 />
             </div>
             <div className="w-full md:w-1/2 lg:w-1/3">
                 <video
                 className="w-full h-auto rounded-lg shadow-lg"
                 controls
-                src="/pope.mp4"
+                src="pope.mp4"
                 />
             </div>
         </div>
