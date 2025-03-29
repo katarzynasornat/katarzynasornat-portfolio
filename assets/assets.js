@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import user_image from './user-image.png';
 import github_icon from './github_icon.png';   
 import medium_icon from './medium_icon.png';
@@ -150,7 +152,37 @@ export const projects = [
             <li>Scenes generation - generating foreground, background, proper poses and face expressions (DiT models, ComfyUI, Midjourney, ControlNet, Canva)</li>   
             <li>Printing - getting familiar with tools, technology and process</li>      
           </ul>
-          <img src="work-1.png" alt="Project A" className="mt-4 w-full rounded-lg" />
+          {/* <img src="work-1.png" alt="Project A" className="mt-4 w-full rounded-lg" /> */}
+
+          <div className="p-4 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4">
+        {/* Image 1 */}
+        <div className="flex justify-center">
+          <Image src="agatka2.png" alt="Image 1" width={600} height={600} />
+        </div>
+
+        {/* Image 2 */}
+        <div className="flex justify-center">
+          <Image src="agatka3.png" alt="Image 2" width={600} height={600} />
+        </div>
+
+        {/* Image 3 */}
+        <div className="flex justify-center">
+          <Image src="agatka4.png" alt="Image 3" width={600} height={600} />
+        </div>
+
+        {/* Image 4 */}
+        <div className="flex justify-center">
+          <Image src="agatka5.png" alt="Image 4" width={600} height={600} />
+        </div>
+
+        {/* Image 5 */}
+        <div className="flex justify-center">
+          <Image src="agatka6.png" alt="Image 5" width={600} height={600} />
+        </div>
+      </div>
+    </div>
+
         </>
       ),
     },
@@ -191,7 +223,7 @@ export const projects = [
         description: 'AI + Elevenlabs for video creation',
         description_long: " dkdkdkd" ,
         image: 'work-4.png',
-        bgImage: 'work-4.png',
+        bgImage: 'deepfake.png',
         content: (
           <>
             <h3 className="text-xl font-semibold mt-6">About This Project</h3>
@@ -235,9 +267,39 @@ export const projects = [
         bgImage: 'work-4.png',
         content: (
           <>
-            <h3 className="text-xl font-semibold">About This Project</h3>
-            <p>Project C focuses on interactivity, animations, and smooth transitions in the UI.</p>
-            <img src="work-4.png" alt="Project D" className="mt-4 w-full rounded-lg" />
+            <h3 className="text-xl font-semibold mt-6">About This Project</h3>
+          <p className = "mt-6">This project uses OminiControl/In-Context-Lora/OmniGen model with the Diffusion Transformers models to provide subject-driven generation which could be used for e-commerce actions like Virtual Try-On, Visual Identity Transfer, Product Design and more. Below my examples presented (on the left reference image, on the right - AI generated) </p>
+
+          <div className="flex flex-col items-center p-4">
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="subject1.png"
+          alt="Image 1"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="logo2_.png"
+          alt="Image 2"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="logo3_.png"
+          alt="Image 3"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="logo1_.png"
+          alt="Image 4"
+        />
+      </div>
+    </div>
           </>
         ),
       },
@@ -251,9 +313,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech Stack', description: 'Python, Github, Jira, Azure, ComfyUI, NextJS, TailwindCSS'},
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Master in Applied Statistics and Probability' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Content Design', description: 'Midjourney, Diffusion Models, DiT Models, Elevenlabs, Hugging Face Models'}
 ];
 
 export const toolsData = [

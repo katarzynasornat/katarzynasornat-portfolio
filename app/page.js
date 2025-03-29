@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ProjectIcons from "./components/ProjectIcon";
+import Fun from "./components/Fun";
 import Image from "next/image";
 
 
@@ -16,8 +17,8 @@ export default function Home() {
     <Navbar/>
     <Header/>
     <About/>
-    <Services/>
     {/* <Work/> */}
+    <Fun/>
     <ProjectIcons />
     <Contact/>
     <Footer/>
