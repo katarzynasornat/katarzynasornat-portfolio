@@ -224,29 +224,61 @@ export const projects = [
           <p className = "mt-6"> The first example uses Flux with Inpainting mask to place the product on the generated background. The second example uses Flux Redux, Flux Fill and masking to combine product and background together based on masked area. Masks were generated using Segment Anything model.
           </p>
 
-          <div className="grid grid-cols-1 gap-6 items-center p-4">
-      <div className="mb-6">
-        <img
-          className="w-full max-w-lg rounded-lg shadow-lg"
-          src="prod_design_chanel.png"
+          {/* <div className="grid grid-cols-1 gap-6 items-center p-4">
+            <div className="mb-6">
+                <Image
+                className="w-full max-w-lg rounded-lg shadow-lg"
+                src="prod_design_chanel.png"
+                alt="Image 1"
+                width={1000}
+                height={1000}
+                />
+            </div> 
+            <div className="mb-6">
+                <img
+                className="w-full max-w-lg rounded-lg shadow-lg"
+                src="bag.png"
+                alt="Image 2"
+                />
+            </div>
+            <div className="mb-6">
+                <img
+                className="w-full max-w-lg rounded-lg shadow-lg"
+                src="prod_design_neck.png"
+                alt="Image 2"
+                />
+            </div>
+            </div> */}
+
+<div className="flex flex-col items-center space-y-4">
+      <div className="overflow-hidden rounded-lg shadow-xl">
+        <Image
+          src="prod_design_chanel.png" // Place your image in the public/images folder
           alt="Image 1"
+          width={900} // Use width you want for the image
+          height={900} // Use height you want for the image
+          className="rounded-lg shadow-lg"
         />
       </div>
-      <div className="mb-6">
-        <img
-          className="w-full max-w-lg rounded-lg shadow-lg"
+      <div className="overflow-hidden rounded-lg shadow-xl">
+        <Image
           src="bag.png"
           alt="Image 2"
+          width={900}
+          height={900}
+          className="rounded-lg shadow-lg"
         />
       </div>
-      <div className="mb-6">
-        <img
-          className="w-full max-w-lg rounded-lg shadow-lg"
+      <div className="overflow-hidden rounded-lg shadow-xl">
+        <Image
           src="prod_design_neck.png"
-          alt="Image 2"
+          alt="Image 3"
+          width={900}
+          height={900}
+          className="rounded-lg shadow-lg"
         />
       </div>
-      </div>
+    </div>
         </>
       ),
     },
