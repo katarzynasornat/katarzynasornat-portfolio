@@ -40,6 +40,10 @@ const About = () => {
             ))}
         </ul>
 
+
+        <p className = "mb-10 max-w-2xl font-Ovo mt-6">I learn very quickly. Fun fact: I made this website in 2 days for this recruitment, knowing very little about UX/UI Design and programming in Next.js. My Motto is "Never give up".</p>
+
+
         </div>
       </div>
     </div>

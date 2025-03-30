@@ -40,8 +40,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import python_icon from './python_icon.png';
+import procreate_icon from './procreate.png';
+import midjourney_icon from './Midjourney.png';
 
 export const assets = {
+    python_icon, 
+    procreate_icon,
+    midjourney_icon,
     medium_icon,
     github_icon,
     linkedin_icon,
@@ -212,8 +218,35 @@ export const projects = [
       content: (
         <>
           <h3 className="text-xl font-semibold">About This Project</h3>
-          <p>Project C focuses on interactivity, animations, and smooth transitions in the UI.</p>
-          <img src="work-3.png" alt="Project C" className="mt-4 w-full rounded-lg" />
+          <p className = "mt-6">This work focuses on using Diffusion Transformers models (especialy FLUX, FLUX Fill and Flux Redux) for product photography. It enables to place the product within generated background or combine product and background together on the same image. All examples generated with Hugging Face models and ComfyUI environment.
+          </p>
+
+          <p className = "mt-6">This work focuses on using Diffusion Transformers models (especialy FLUX, FLUX Fill and Flux Redux) for product photography. It enables to place the product within generated background or combine product and background together on the same image. All examples generated with Hugging Face models and ComfyUI environment.
+          </p>
+
+          <div className="grid grid-cols-1 gap-6 items-center p-4">
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="prod_design_chanel.png"
+          alt="Image 1"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="bag.png"
+          alt="Image 2"
+        />
+      </div>
+      <div className="mb-6">
+        <img
+          className="w-full max-w-lg rounded-lg shadow-lg"
+          src="prod_design_neck.png"
+          alt="Image 2"
+        />
+      </div>
+      </div>
         </>
       ),
     },
@@ -333,5 +366,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.python_icon, assets.vscode, assets.procreate_icon, assets.midjourney_icon, assets.git
 ];
