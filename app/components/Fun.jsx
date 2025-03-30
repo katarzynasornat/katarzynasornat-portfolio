@@ -28,15 +28,15 @@ const Services = () => {
 
         </div> */}
 
-<div className="flex flex-col items-center space-y-12 py-16">
+    <div className="flex flex-col items-center space-y-30 py-16">
       {/* Section 1 */}
       <div className="flex items-center justify-center space-x-12">
         <div className="text-center w-1/3">
           <h2 className="text-3xl font-bold mb-4 font-Ovo">Engagement ring with diamond</h2>
-          <p className="text-lg mb-4">In 2010 I took part in a <a href = "https://www.michelson.pl/pierscionki-zareczynowe/pierscionek-z-brylantem-01-ct-w-przecudnej-oprawie-z-zoltego-zlota-m-p-585z-004-010"><u>competition</u></a> to design an engagement ring with a diamond organized by Michelson Diamonds. I provided a sketch of the design and won the first place. The ring can be still bought on Michelson Diamonds website.</p>
+          <p className="text-lg mb-4 text-justify">In 2010 I took part in a <a href = "https://www.michelson.pl/pierscionki-zareczynowe/pierscionek-z-brylantem-01-ct-w-przecudnej-oprawie-z-zoltego-zlota-m-p-585z-004-010"><u>competition</u></a> to design an engagement ring with a diamond organized by Michelson Diamonds. I provided a sketch of the design and won the first place. The ring can be still bought on Michelson Diamonds website.</p>
         </div>
-        <div className="w-1/3">
-          <Image src="ring.jpg" alt="Image 1" width={400} height={400} />
+        <div className="w-1/2">
+          <Image src="ring.png" alt="Image 1" width={800} height={800} />
         </div>
       </div>
 
@@ -48,8 +48,8 @@ const Services = () => {
           <Image src="sliwka.png" alt="Image 2" width={1000} height={1000} />
         </div>
         <div className="text-center w-1/3">
-          <h2 className="text-3xl font-bold mb-4">Chocolate box design for Śliwka Nałęczowska</h2>
-          <p className="text-lg mb-4">In 2025 I took part in a competition organized by Śliwka Nałęczowska to design a limited edition Christmas chocolate box. Winners will be announced in April 2025. I have used Procreate for the design.</p>
+          <h2 className="text-3xl font-bold mb-4 font-Ovo">Chocolate box design for Śliwka Nałęczowska</h2>
+          <p className="text-lg mb-4 text-justify">In 2025 I took part in a competition organized by Śliwka Nałęczowska to design a limited edition Christmas chocolate box. Winners will be announced in April 2025. I have used Procreate for the design.</p>
         </div>
       </div>
 

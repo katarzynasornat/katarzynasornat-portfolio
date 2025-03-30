@@ -17,7 +17,7 @@ const About = () => {
             <Image src={assets.user_image} alt = "user" className="w-full rounded-3xl"/>
         </div>
         <div className = "flex-1">
-        <p className = "mb-10 max-w-2xl font-Ovo">An experienced Data Scientist and a creative personality who thinks outside the box. A motivated team player with great interpersonal acuity who can bridge the gap between stakeholders, business people and technical part of the team. During the professional career has been working in banking, fast fashion, airlines and retail sector working on different projects. Has exceptional presentation and storytelling skills. Looking forward interesting projects to work on.</p>
+        <p className = "mb-10 max-w-2xl font-Ovo text-justify">An experienced Data Scientist and a creative personality who thinks outside the box. A motivated team player with great interpersonal acuity who can bridge the gap between stakeholders, business people and technical part of the team. During the professional career has been working in banking, fast fashion, airlines and retail sector working on different projects. Has exceptional presentation and storytelling skills. Looking forward interesting projects to work on.</p>
 
         <ul className = "grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             {infoList.map(({icon, iconDark, title, description}, index) => (
@@ -41,7 +41,7 @@ const About = () => {
         </ul>
 
 
-        <p className = "mb-10 max-w-2xl font-Ovo mt-6">I learn very quickly. Fun fact: I made this website in 2 days for this recruitment, knowing very little about UX/UI Design and programming in Next.js. My Motto is "Never give up".</p>
+        <p className = "mb-10 max-w-2xl font-Ovo mt-6 text-justify">I learn very quickly. Fun fact: I made this website in 2 days for this recruitment, knowing very little about UX/UI Design and programming in Next.js. My Motto is "Never give up".</p>
 
 
         </div>

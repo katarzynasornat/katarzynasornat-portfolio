@@ -221,7 +221,7 @@ export const projects = [
           <p className = "mt-6">This work focuses on using Diffusion Transformers models (especialy FLUX, FLUX Fill and Flux Redux) for product photography. It enables to place the product within generated background or combine product and background together on the same image. All examples generated with Hugging Face models and ComfyUI environment.
           </p>
 
-          <p className = "mt-6">This work focuses on using Diffusion Transformers models (especialy FLUX, FLUX Fill and Flux Redux) for product photography. It enables to place the product within generated background or combine product and background together on the same image. All examples generated with Hugging Face models and ComfyUI environment.
+          <p className = "mt-6"> The first example uses Flux with Inpainting mask to place the product on the generated background. The second example uses Flux Redux, Flux Fill and masking to combine product and background together based on masked area. Masks were generated using Segment Anything model.
           </p>
 
           <div className="grid grid-cols-1 gap-6 items-center p-4">
