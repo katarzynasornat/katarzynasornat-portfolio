@@ -33,7 +33,7 @@ const Services = () => {
       <div className="flex items-center justify-center space-x-12">
         <div className="text-center w-1/3">
           <h2 className="text-3xl font-bold mb-4 font-Ovo">Engagement ring with diamond</h2>
-          <p className="text-lg mb-4 text-justify">In 2010 I took part in a <a href = "https://www.michelson.pl/pierscionki-zareczynowe/pierscionek-z-brylantem-01-ct-w-przecudnej-oprawie-z-zoltego-zlota-m-p-585z-004-010"><u>competition</u></a> to design an engagement ring with a diamond organized by Michelson Diamonds. I provided a sketch of the design and won the first place. The ring can be still bought on Michelson Diamonds website.</p>
+          <p className="text-lg mb-4 text-justify">In 2010 I took part in a <a href = "https://michelson.pl/collections/pierscionki-zareczynowe/products/pierscionek-z-brylantem-01-ct-w-przecudnej-oprawie-z-zoltego-zlota-m-p-585z-004-010"><u>competition</u></a> to design an engagement ring with a diamond organized by Michelson Diamonds. I provided a sketch of the design and won the first place. The ring can be still bought on Michelson Diamonds website.</p>
         </div>
         <div className="w-1/2 relative group">
           <Image src="ring.png" alt="Image 1" width={800} height={800} className = "w-full h-full object-cover transition-transform duration-300 ease-in-out transform group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-gray-500 cursor-pointer"/>
